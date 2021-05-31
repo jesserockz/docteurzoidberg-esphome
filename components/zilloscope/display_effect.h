@@ -543,7 +543,7 @@ namespace zilloscope {
         }
 
         unsigned long timer2 = millis();
-        ESP_LOGD(TAG, "draw time: %lu" , (timer2-timer));
+        // ESP_LOGD(TAG, "draw time: %lu" , (timer2-timer));
       }
 
       void set_tile_size(uint32_t tile_size) { this->tile_size_ = tile_size; }
